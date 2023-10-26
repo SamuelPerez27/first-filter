@@ -17,7 +17,7 @@
 2.	Instala el framework necesario en caso de no tenerlo.
 3.	Compila la aplicación luego de pasar el analisis de sonarqube.
     * Agregar dos escenarios 1 - analisis fallido | 2 - analisis exitoso
-4.  Genera una imagen de docker y sube la imagen a dockerhub.
+4.  Genera una imagen de docker y sube la imagen a dockerhub/ACR/ECR desde el pipeline yaml.
 5.	Dentro del pipeline ejecute lo siguiente en bash o powershell.
     a.	Imprime `Hola Mundo` 10 veces en pantalla con un job paralelo. 
     b.	Script que cree 10 archivos con la fecha y luego lo imprima en consola
