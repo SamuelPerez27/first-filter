@@ -1,6 +1,6 @@
-#Prueba-Dummy
+# Prueba-Dummy
 
-###Contar con las siguientes herramientas instaladas.
+### Contar con las siguientes herramientas instaladas.
 * Sonarqube
 * Organización de azure DevOps.
 * Docker.
@@ -11,7 +11,7 @@
 
 `Utiliza un repositorio del siguiente link del apartado de framework https://docs.docker.com/samples/`
 
-####Procedimento
+#### Procedimento
 
 1.	Descarga los archivos del repositorio elegido.
 2.	Instala el framework necesario en caso de no tenerlo.
@@ -25,21 +25,21 @@
 7.	Crea un endpoint externo accesible (ingress) para la aplicación
 8.  Sube al repo en una carpeta `environment` todos los yaml de k8s.
 
-####Que se espera del ejercicio
+#### Que se espera del ejercicio
 
 1.	Configuración de la infraestructura desde cero.
 2.	Documentación para crear solución y demostración de la aplicación funcionando.
 3.	Coding Standards.
 4.	Enfoque hacia la meta.
 
-####Bonus para tomar en consideración
+#### Bonus para tomar en consideración
 1.	Construye un clúster de kubernetes usando IaC (terraform o eksctl).
 2.	Usa un manejador de templates como Kustomize o Helm.
-3.	Despliega en nube publica (AWS o Azure).
+3.	Despliega en nube pública (AWS o Azure).
 4.	Que sea accesible desde internet.
 5.	Uso de metodologías DevOps.
 
-####Resultados que debes adjuntar
+#### Resultados que debes adjuntar
 
 1. Codigo
 2. yaml de k8s
@@ -47,4 +47,4 @@
 4. Logs
 5. Printscreen
 6. Recording de pantalla (opcional)
-7. Compartir repositorio de github publico para evaluación
+7. Compartir repositorio de github público para evaluación
